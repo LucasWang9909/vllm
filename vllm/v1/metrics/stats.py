@@ -78,6 +78,10 @@ class RequestStateStats:
     # first token latency
     first_token_latency: float = 0.0
 
+    
+    # time spent in multimodal encoder forward in seconds
+    mm_encoder_time: float = 0.0
+
 
 @dataclass
 class FinishedRequestStats:

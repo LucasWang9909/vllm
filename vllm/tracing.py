@@ -124,6 +124,9 @@ class SpanAttributes:
     GEN_AI_LATENCY_TIME_IN_MODEL_DECODE = "gen_ai.latency.time_in_model_decode"
     GEN_AI_LATENCY_TIME_IN_MODEL_INFERENCE = \
         "gen_ai.latency.time_in_model_inference"
+    
+    # Time taken by multimodal encoder forward (e.g., vision encoder)
+    GEN_AI_LATENCY_TIME_IN_MM_ENCODER = "gen_ai.latency.time_in_mm_encoder"
 
 
 def contains_trace_headers(headers: Mapping[str, str]) -> bool:

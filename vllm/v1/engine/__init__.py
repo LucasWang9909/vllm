@@ -70,6 +70,8 @@ class EngineCoreRequest(
 
     trace_headers: Optional[Mapping[str, str]] = None
 
+    
+
 
 class EngineCoreEventType(enum.IntEnum):
     """The type of engine core request event."""
@@ -118,6 +120,8 @@ class EngineCoreOutput(
     trace_headers: Optional[Mapping[str, str]] = None
     # The number of tokens with prefix cache hits.
     num_cached_tokens: int = 0
+    # Multimodal encoder time (seconds) for this request in this step
+    mm_encoder_time: Optional[float] = None
 
     @property
     def finished(self) -> bool:

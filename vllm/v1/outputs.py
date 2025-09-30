@@ -131,6 +131,9 @@ class ModelRunnerOutput:
     # req_id -> num_nans_in_logits
     num_nans_in_logits: Optional[dict[str, int]] = None
 
+    # Per-request multimodal encoder time (seconds) for this step
+    mm_encoder_time: Optional[dict[str, float]] = None
+
 
 # ModelRunnerOutput wrapper for async scheduling.
 class AsyncModelRunnerOutput(ABC):
@@ -161,4 +164,5 @@ EMPTY_MODEL_RUNNER_OUTPUT = ModelRunnerOutput(req_ids=[],
                                               logprobs=None,
                                               prompt_logprobs_dict={},
                                               pooler_output=[],
-                                              num_nans_in_logits=None)
+                                              num_nans_in_logits=None,
+                                              mm_encoder_time=None)
