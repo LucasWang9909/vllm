@@ -263,17 +263,21 @@ class RequestTimelineVisualizer:
             
             # Token生成（每个ITL作为单独的段，根据长度用不同颜色）
             prev_time = timeline.prefill_end
-            for j, token_time in enumerate(timeline.token_times):
+            for token_time in timeline.token_times:
                 itl_duration = token_time - prev_time
                 itl_color = self._get_itl_color(itl_duration)
                 
                 token_rect = patches.Rectangle(
                     (start_offset + prev_time, y_pos - 0.3),
                     itl_duration, 0.6,
-                    facecolor=itl_color, alpha=0.8
+                    facecolor=itl_color,
+                    edgecolor=(0, 0, 0, 0.5),
+                    linewidth=0.2,
+                    alpha=0.85
                 )
                 ax1.add_patch(token_rect)
                 prev_time = token_time
+            # 最后一个 token 段已通过边框体现分隔，无需额外线条
         
         # 设置甘特图样式
         ax1.set_xlim(0, max(t.start_time - global_start + t.total_duration for t in display_timelines))
@@ -382,12 +386,12 @@ class RequestTimelineVisualizer:
             
             # 每个Token的ITL（详细显示，根据长度用不同颜色）
             prev_time = timeline.prefill_end
-            for j, token_time in enumerate(timeline.token_times):
+            for token_time in timeline.token_times:
                 itl_duration = token_time - prev_time
                 itl_color = self._get_itl_color(itl_duration)
                 
                 ax.barh(y_pos, itl_duration, left=start_offset + prev_time, height=0.4,
-                       color=itl_color, alpha=0.8)
+                       color=itl_color, edgecolor=(0, 0, 0, 0.5), linewidth=0.2, alpha=0.85)
                 
                 # 在每个token段上标注ITL时间（智能阈值）
                 # 如果ITL超过平均值，就显示时间标注
@@ -398,6 +402,7 @@ class RequestTimelineVisualizer:
                            color='white', weight='bold')
                 
                 prev_time = token_time
+            # 最后一个 token 段已通过边框体现分隔，无需额外线条
             
             # 添加请求ID标签
             ax.text(-0.5, y_pos, f'Req {request_indices[i]}\n{timeline.request_id[:8]}...', 
