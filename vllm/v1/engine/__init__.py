@@ -70,8 +70,6 @@ class EngineCoreRequest(
 
     trace_headers: Optional[Mapping[str, str]] = None
 
-    
-
 
 class EngineCoreEventType(enum.IntEnum):
     """The type of engine core request event."""
@@ -120,7 +118,6 @@ class EngineCoreOutput(
     trace_headers: Optional[Mapping[str, str]] = None
     # The number of tokens with prefix cache hits.
     num_cached_tokens: int = 0
-    
 
     @property
     def finished(self) -> bool:

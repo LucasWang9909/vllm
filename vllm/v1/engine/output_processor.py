@@ -160,7 +160,7 @@ class RequestState:
             assert request.pooling_params is not None
             output_kind = request.pooling_params.output_kind
 
-        instance = cls(
+        return cls(
             request_id=request.request_id,
             parent_req=parent_req,
             request_index=request_index,
@@ -180,7 +180,6 @@ class RequestState:
             queue=queue,
             log_stats=log_stats,
         )
-        return instance
 
     def make_request_output(
         self,
@@ -522,7 +521,6 @@ class OutputProcessor:
             span.set_attribute(
                 SpanAttributes.GEN_AI_LATENCY_TIME_IN_MODEL_INFERENCE,
                 inference_time)
-            
 
             # meta
             span.set_attribute(SpanAttributes.GEN_AI_REQUEST_ID,
@@ -556,7 +554,6 @@ class OutputProcessor:
                                            req_state.is_prefilling,
                                            req_state.prompt_len,
                                            req_state.stats, lora_stats)
-        
 
     def _update_stats_from_finished(self, req_state: RequestState,
                                     finish_reason: Optional[FinishReason],

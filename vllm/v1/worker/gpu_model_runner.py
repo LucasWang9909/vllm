@@ -1647,8 +1647,6 @@ class GPUModelRunner(LoRAModelRunnerMixin, KVConnectorModelRunnerMixin):
                 is_embed=pos_info.is_embed,
             )
 
-        
-
     def _gather_mm_embeddings(
         self,
         scheduler_output: "SchedulerOutput",
@@ -2537,11 +2535,6 @@ class GPUModelRunner(LoRAModelRunnerMixin, KVConnectorModelRunnerMixin):
             kv_connector_output=kv_connector_output,
             num_nans_in_logits=num_nans_in_logits,
         )
-
-        # Attach MM encoder time (seconds) for this step, if recorded
-        if hasattr(self, "_mm_encoder_time_dict") and self._mm_encoder_time_dict:
-            output.mm_encoder_time = self._mm_encoder_time_dict
-            self._mm_encoder_time_dict = {}
 
         if not self.use_async_scheduling:
             return output

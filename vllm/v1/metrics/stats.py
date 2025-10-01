@@ -78,9 +78,6 @@ class RequestStateStats:
     # first token latency
     first_token_latency: float = 0.0
 
-    
-    
-
 
 @dataclass
 class FinishedRequestStats:
