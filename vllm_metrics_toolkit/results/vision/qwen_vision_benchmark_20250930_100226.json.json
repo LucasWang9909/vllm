@@ -1,0 +1,4111 @@
+{
+  "metadata": {
+    "total_requests": 100,
+    "successful_requests": 0,
+    "failed_requests": 100,
+    "export_time": "2025-09-30T10:02:26.433659",
+    "format_version": "1.0"
+  },
+  "requests": [
+    {
+      "request_id": "qwen_vision_req_0",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_1",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_2",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_3",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_4",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_5",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_6",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_7",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_8",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_9",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_10",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_11",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_12",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_13",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_14",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_15",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_16",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_17",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_18",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_19",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_20",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_21",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_22",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_23",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_24",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_25",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_26",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_27",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_28",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_29",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_30",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_31",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_32",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_33",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_34",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_35",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_36",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_37",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_38",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_39",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_40",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_41",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_42",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_43",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_44",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_45",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_46",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_47",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_48",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_49",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_50",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_51",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_52",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_53",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_54",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_55",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_56",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_57",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_58",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_59",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_60",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_61",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_62",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_63",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_64",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_65",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_66",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_67",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_68",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_69",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_70",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_71",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_72",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_73",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_74",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_75",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_76",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_77",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_78",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_79",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_80",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_81",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_82",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_83",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_84",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_85",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_86",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_87",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_88",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_89",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_90",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_91",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_92",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_93",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_94",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_95",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_96",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_97",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_98",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    },
+    {
+      "request_id": "qwen_vision_req_99",
+      "trace_id": "failed",
+      "success": false,
+      "error_message": "Image not found: __TEXT_ONLY__",
+      "timestamp": null,
+      "send_time_iso": null,
+      "client_metrics": {
+        "e2e_latency_ms": 0.0,
+        "ttft_ms": null,
+        "tpot_ms": null,
+        "itl_ms": null
+      },
+      "server_metrics": {
+        "queue_time_ms": null,
+        "prefill_time_ms": null,
+        "decode_time_ms": null,
+        "inference_time_ms": null,
+        "e2e_time_ms": null,
+        "ttft_ms": null,
+        "mm_encoder_time_ms": null
+      },
+      "tokens": {
+        "prompt_tokens": null,
+        "completion_tokens": null
+      },
+      "request_params": {
+        "model": null,
+        "temperature": null,
+        "top_p": null,
+        "max_tokens": null
+      },
+      "content": {
+        "generated_text": "",
+        "text_length": 0
+      },
+      "detailed_data": {
+        "itl_list_seconds": [],
+        "itl_list_ms": []
+      }
+    }
+  ]
+}

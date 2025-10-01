@@ -14,7 +14,7 @@
 ### 最简单的使用方式
 ```bash
 cd /home/ubuntu/vllm/vllm_metrics_toolkit
-python quick_timeline_demo.py my_test_20250922_165706.json.json
+python scripts/quick_timeline_demo.py qwen_vision_benchmark_20250925_193514.json.json --max-requests 5
 ```
 
 这将生成两个关键图表：
