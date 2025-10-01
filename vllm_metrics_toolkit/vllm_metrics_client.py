@@ -58,7 +58,7 @@ class RequestMetrics:
     server_inference_time: Optional[float] = None # 推理总时间
     server_e2e_time: Optional[float] = None      # 服务端E2E时间
     server_ttft: Optional[float] = None          # 服务端TTFT
-    server_mm_encoder_time: Optional[float] = None # 多模态encoder前向时间
+    
     
     # Token统计
     prompt_tokens: Optional[int] = None
@@ -98,7 +98,7 @@ class RequestMetrics:
                 "inference_time_ms": self.server_inference_time,
                 "e2e_time_ms": self.server_e2e_time,
                 "ttft_ms": self.server_ttft,
-                "mm_encoder_time_ms": self.server_mm_encoder_time,
+                
             },
             "tokens": {
                 "prompt_tokens": self.prompt_tokens,
@@ -351,7 +351,7 @@ class VLLMMetricsClient:
                             "inference_time": self._safe_float_ms(tags.get("gen_ai.latency.time_in_model_inference")),
                             "e2e_time": self._safe_float_ms(tags.get("gen_ai.latency.e2e")),
                             "ttft": self._safe_float_ms(tags.get("gen_ai.latency.time_to_first_token")),
-                            "mm_encoder_time": self._safe_float_ms(tags.get("gen_ai.latency.time_in_mm_encoder")),
+                            
                             "prompt_tokens": self._safe_int(tags.get("gen_ai.usage.prompt_tokens")),
                             "completion_tokens": self._safe_int(tags.get("gen_ai.usage.completion_tokens")),
                             "model": tags.get("gen_ai.response.model"),
@@ -401,7 +401,7 @@ class VLLMMetricsClient:
         metrics.server_inference_time = server_data.get("inference_time")
         metrics.server_e2e_time = server_data.get("e2e_time")
         metrics.server_ttft = server_data.get("ttft")
-        metrics.server_mm_encoder_time = server_data.get("mm_encoder_time")
+        
         metrics.prompt_tokens = server_data.get("prompt_tokens")
         metrics.completion_tokens = server_data.get("completion_tokens")
         metrics.model_name = server_data.get("model")
@@ -503,8 +503,7 @@ def format_metrics(metrics: RequestMetrics, show_details: bool = True) -> str:
             lines.append(f"  解码时间:           {metrics.server_decode_time:.2f}ms")
         if metrics.server_inference_time:
             lines.append(f"  推理总时间:         {metrics.server_inference_time:.2f}ms")
-        if metrics.server_mm_encoder_time:
-            lines.append(f"  多模态Encoder时间:  {metrics.server_mm_encoder_time:.2f}ms")
+        
     
     if metrics.prompt_tokens or metrics.completion_tokens:
         lines.append("")
@@ -866,7 +865,7 @@ def save_multiple_requests_metrics(metrics_list: List[RequestMetrics], filename:
                 'timestamp', 'send_time_iso',
                 'client_e2e_latency_ms', 'client_ttft_ms', 'client_tpot_ms', 'client_itl_ms',
                 'server_queue_time_ms', 'server_prefill_time_ms', 'server_decode_time_ms',
-                'server_inference_time_ms', 'server_e2e_time_ms', 'server_ttft_ms', 'server_mm_encoder_time_ms',
+                'server_inference_time_ms', 'server_e2e_time_ms', 'server_ttft_ms',
                 'prompt_tokens', 'completion_tokens',
                 'param_model', 'param_temperature', 'param_top_p', 'param_max_tokens',
                 'generated_text', 'text_length',
@@ -900,7 +899,7 @@ def save_multiple_requests_metrics(metrics_list: List[RequestMetrics], filename:
                         'server_inference_time_ms': data['server_metrics']['inference_time_ms'],
                         'server_e2e_time_ms': data['server_metrics']['e2e_time_ms'],
                         'server_ttft_ms': data['server_metrics']['ttft_ms'],
-                        'server_mm_encoder_time_ms': data['server_metrics'].get('mm_encoder_time_ms'),
+                        
                         
                         'prompt_tokens': data['tokens']['prompt_tokens'],
                         'completion_tokens': data['tokens']['completion_tokens'],

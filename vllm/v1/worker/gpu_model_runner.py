@@ -1598,8 +1598,6 @@ class GPUModelRunner(LoRAModelRunnerMixin, KVConnectorModelRunnerMixin):
         # encoder outputs.
         model = cast(SupportsMultiModal, self.model)
         encoder_outputs = []
-        import time as _time
-        mm_time_start = _time.perf_counter()
         for modality, num_items, mm_kwargs_group in group_mm_kwargs_by_modality(
                 mm_kwargs,
                 device=self.device,
@@ -1641,7 +1639,6 @@ class GPUModelRunner(LoRAModelRunnerMixin, KVConnectorModelRunnerMixin):
                 expected_num_items=num_items,
             )
             encoder_outputs.extend(curr_group_outputs)
-        mm_time_end = _time.perf_counter()
 
         # Cache the encoder outputs by mm_hash
         for (mm_hash, pos_info), output in zip(mm_hashes_pos, encoder_outputs):
@@ -1650,23 +1647,7 @@ class GPUModelRunner(LoRAModelRunnerMixin, KVConnectorModelRunnerMixin):
                 is_embed=pos_info.is_embed,
             )
 
-        # Accumulate per-request MM encoder time for this step
-        elapsed = mm_time_end - mm_time_start
-        if elapsed > 0:
-            # Attribute all time to the first-rank PP (where encoder runs)
-            # Split evenly across requests that had MM encoder inputs this step
-            try:
-                scheduled_encoder_inputs = (
-                    scheduler_output.scheduled_encoder_inputs or {})
-                affected_req_ids = set(scheduled_encoder_inputs.keys())
-            except Exception:
-                affected_req_ids = set(self.input_batch.req_ids)
-            per_req_time = elapsed / max(len(affected_req_ids), 1)
-            if not hasattr(self, "_mm_encoder_time_dict"):
-                self._mm_encoder_time_dict = {}
-            for req_id in affected_req_ids:
-                self._mm_encoder_time_dict[req_id] = (
-                    self._mm_encoder_time_dict.get(req_id, 0.0) + per_req_time)
+        
 
     def _gather_mm_embeddings(
         self,

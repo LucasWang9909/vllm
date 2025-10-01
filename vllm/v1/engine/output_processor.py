@@ -522,10 +522,7 @@ class OutputProcessor:
             span.set_attribute(
                 SpanAttributes.GEN_AI_LATENCY_TIME_IN_MODEL_INFERENCE,
                 inference_time)
-            if metrics.mm_encoder_time:
-                span.set_attribute(
-                    SpanAttributes.GEN_AI_LATENCY_TIME_IN_MM_ENCODER,
-                    metrics.mm_encoder_time)
+            
 
             # meta
             span.set_attribute(SpanAttributes.GEN_AI_REQUEST_ID,
@@ -559,10 +556,7 @@ class OutputProcessor:
                                            req_state.is_prefilling,
                                            req_state.prompt_len,
                                            req_state.stats, lora_stats)
-        # Record MM encoder time
-        if engine_core_output.mm_encoder_time is not None and \
-                req_state.stats is not None:
-            req_state.stats.mm_encoder_time += engine_core_output.mm_encoder_time
+        
 
     def _update_stats_from_finished(self, req_state: RequestState,
                                     finish_reason: Optional[FinishReason],

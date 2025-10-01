@@ -973,12 +973,8 @@ class Scheduler(SchedulerInterface):
 
             # Get prompt logprobs for this request.
             prompt_logprobs_tensors = prompt_logprobs_dict.get(req_id)
-            mm_time = None
-            if model_runner_output.mm_encoder_time is not None:
-                mm_time = model_runner_output.mm_encoder_time.get(req_id)
-
             if new_token_ids or pooler_output is not None \
-                or kv_transfer_params or mm_time is not None:
+                or kv_transfer_params:
 
                 # Add EngineCoreOutput for this Request.
                 outputs[request.client_index].append(
@@ -992,7 +988,6 @@ class Scheduler(SchedulerInterface):
                         stop_reason=request.stop_reason,
                         events=request.take_events(),
                         kv_transfer_params=kv_transfer_params,
-                        mm_encoder_time=mm_time,
                         trace_headers=request.trace_headers,
                         num_cached_tokens=request.num_cached_tokens,
                     ))

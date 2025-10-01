@@ -31,7 +31,7 @@ class RequestTimelineData:
         self.queue_time_ms = server_metrics.get('queue_time_ms', 0)
         self.prefill_time_ms = server_metrics.get('prefill_time_ms', 0)
         self.decode_time_ms = server_metrics.get('decode_time_ms', 0)
-        self.mm_encoder_time_ms = server_metrics.get('mm_encoder_time_ms', 0)
+        
         
         # 客户端指标
         client_metrics = request_data.get('client_metrics', {})
@@ -56,24 +56,7 @@ class RequestTimelineData:
         self.queue_end = self.queue_time_ms / 1000.0
         self.prefill_start = self.queue_end
 
-        # 多模态编码与真实 prefill 拆分
-        self.encoder_start = None
-        self.encoder_end = None
-        self.true_prefill_start = None
-        self.true_prefill_end = None
-
-        # 只有当存在 mm_encoder_time_ms (>0) 时才绘制 encoder 段
-        if isinstance(self.mm_encoder_time_ms, (int, float)) and self.mm_encoder_time_ms > 0:
-            self.encoder_start = self.prefill_start
-            self.encoder_end = self.encoder_start + (self.mm_encoder_time_ms / 1000.0)
-            true_prefill_ms = max(self.prefill_time_ms - self.mm_encoder_time_ms, 0)
-            self.true_prefill_start = self.encoder_end
-            self.true_prefill_end = self.true_prefill_start + (true_prefill_ms / 1000.0)
-            # 语义上 prefill_end 仍是总 prefill 结束
-            self.prefill_end = self.prefill_start + (self.prefill_time_ms / 1000.0)
-        else:
-            # 非多模态或无 encoder 时间，仍按单段 prefill 绘制
-            self.prefill_end = self.prefill_start + (self.prefill_time_ms / 1000.0)
+        self.prefill_end = self.prefill_start + (self.prefill_time_ms / 1000.0)
         
         # Token生成时间点
         self.token_times = []
@@ -215,8 +198,7 @@ class RequestTimelineVisualizer:
         # 颜色配置
         colors = {
             'queue': '#FF6B6B',      # 红色 - 队列等待
-            'prefill': '#4ECDC4',    # 青色 - 预填充(去除encoder后的 true prefill)
-            'encoder': '#9B59B6',    # 紫色 - 多模态Encoder
+            'prefill': '#4ECDC4',    # 青色 - 预填充
             'token': '#45B7D1',      # 蓝色 - Token生成
             'itl': '#96CEB4'         # 绿色 - ITL间隔
         }
@@ -237,29 +219,12 @@ class RequestTimelineVisualizer:
             
             # 预填充时间
             if timeline.prefill_time_ms > 0:
-                # 如果有 mm encoder，则拆分为 encoder + true prefill 两段
-                if timeline.encoder_start is not None and timeline.encoder_end is not None:
-                    encoder_rect = patches.Rectangle(
-                        (start_offset + timeline.encoder_start, y_pos - 0.4),
-                        timeline.encoder_end - timeline.encoder_start, 0.8,
-                        facecolor=colors['encoder'], alpha=0.8, label='Encoder' if i == 0 else ""
-                    )
-                    ax1.add_patch(encoder_rect)
-
-                    if timeline.true_prefill_start is not None and timeline.true_prefill_end is not None:
-                        true_prefill_rect = patches.Rectangle(
-                            (start_offset + timeline.true_prefill_start, y_pos - 0.4),
-                            timeline.true_prefill_end - timeline.true_prefill_start, 0.8,
-                            facecolor=colors['prefill'], alpha=0.8, label='Prefill' if i == 0 else ""
-                        )
-                        ax1.add_patch(true_prefill_rect)
-                else:
-                    prefill_rect = patches.Rectangle(
-                        (start_offset + timeline.prefill_start, y_pos - 0.4),
-                        timeline.prefill_end - timeline.prefill_start, 0.8,
-                        facecolor=colors['prefill'], alpha=0.8, label='Prefill' if i == 0 else ""
-                    )
-                    ax1.add_patch(prefill_rect)
+                prefill_rect = patches.Rectangle(
+                    (start_offset + timeline.prefill_start, y_pos - 0.4),
+                    timeline.prefill_end - timeline.prefill_start, 0.8,
+                    facecolor=colors['prefill'], alpha=0.8, label='Prefill' if i == 0 else ""
+                )
+                ax1.add_patch(prefill_rect)
             
             # Token生成（每个ITL作为单独的段，根据长度用不同颜色）
             prev_time = timeline.prefill_end
@@ -291,7 +256,6 @@ class RequestTimelineVisualizer:
         # 添加ITL颜色分级图例
         itl_legend_elements = [
             patches.Patch(color='#FF6B6B', label='Queue'),
-            patches.Patch(color='#9B59B6', label='Encoder'),
             patches.Patch(color='#4ECDC4', label='Prefill'),
             patches.Patch(color='#2ECC71', label=f'Normal ITL (<{self.itl_stats["threshold_1"]*1000:.0f}ms)'),
             patches.Patch(color='#F39C12', label=f'Long ITL ({self.itl_stats["threshold_1"]*1000:.0f}-{self.itl_stats["threshold_2"]*1000:.0f}ms)'),
