@@ -25,7 +25,8 @@ def plot_paper_style_comparison(analyzer1: CumulativeTokenAnalyzer,
                                 output_file: str = None,
                                 show_plot: bool = True,
                                 main_range: Tuple[float, float] = None,
-                                inset_range: Tuple[float, float] = None):
+                                inset_range: Tuple[float, float] = None,
+                                stall_threshold: float = 0.06):
     """绘制论文风格的对比图，带有inset放大框
     
     Args:
@@ -34,11 +35,13 @@ def plot_paper_style_comparison(analyzer1: CumulativeTokenAnalyzer,
     """
     
     print("📈 Generating paper-style comparison plot...")
-    
+
+    stall_threshold = max(stall_threshold, 0.0)
+
     # 获取数据
     times1, cumulative1 = analyzer1.generate_cumulative_data()
     times2, cumulative2 = analyzer2.generate_cumulative_data()
-    
+
     if not times1 or not times2:
         print("❌ No data to plot")
         return
@@ -79,13 +82,40 @@ def plot_paper_style_comparison(analyzer1: CumulativeTokenAnalyzer,
     # 主图：累计token数对比
     color1 = '#4472C4'  # 蓝色 (类似论文中的 Sarathi-Serve)
     color2 = '#ED7D31'  # 橙色 (类似论文中的 vLLM)
-    
+
     # 绘制主曲线
     line1, = ax.plot(times1, cumulative1, linewidth=2.5, color=color1, 
                      alpha=0.9, label=label1, linestyle='-')
     line2, = ax.plot(times2, cumulative2, linewidth=2.5, color=color2, 
                      alpha=0.9, label=label2, linestyle='-')
-    
+
+    stall_color = '#C00000'
+
+    def find_stall_indices(times: List[float], threshold: float) -> List[int]:
+        if not times or len(times) < 2 or threshold <= 0:
+            return []
+        return [i for i in range(len(times) - 1)
+                if (times[i + 1] - times[i]) >= threshold]
+
+    def highlight_stalls(ax_obj, times: List[float], cumulative: List[int],
+                         stall_indices: List[int], add_label: bool) -> bool:
+        if not stall_indices:
+            return False
+
+        label = "Stall ≥{:.0f} ms".format(stall_threshold * 1000) if add_label else None
+
+        for idx, start_idx in enumerate(stall_indices):
+            seg_label = label if idx == 0 else None
+            ax_obj.plot(times[start_idx:start_idx + 2],
+                        cumulative[start_idx:start_idx + 2],
+                        color=stall_color,
+                        linewidth=3,
+                        alpha=0.85,
+                        solid_capstyle='round',
+                        zorder=4,
+                        label=seg_label)
+        return label is not None
+
     # 设置轴标签和标题
     ax.set_xlabel('Time (s)', fontsize=13, fontweight='bold')
     ax.set_ylabel('Tokens Generated', fontsize=13, fontweight='bold')
@@ -108,6 +138,17 @@ def plot_paper_style_comparison(analyzer1: CumulativeTokenAnalyzer,
         ax.set_xlim(0, max_time)
         ax.set_ylim(0, max_tokens * 1.05)
     
+    # 标记停滞片段（token生成间隔超过阈值）
+    stall_indices1 = find_stall_indices(times1, stall_threshold)
+    stall_indices2 = find_stall_indices(times2, stall_threshold)
+
+    total_stalls = len(stall_indices1) + len(stall_indices2)
+    if total_stalls:
+        print(f"🔴 Highlighting {total_stalls} stall segments (≥{stall_threshold * 1000:.0f} ms)")
+
+    label_added = highlight_stalls(ax, times1, cumulative1, stall_indices1, add_label=True)
+    highlight_stalls(ax, times2, cumulative2, stall_indices2, add_label=not label_added)
+
     # 格式化y轴为 K 格式
     def format_func(value, tick_number):
         if value >= 1000:
@@ -137,12 +178,18 @@ def plot_paper_style_comparison(analyzer1: CumulativeTokenAnalyzer,
         inset_indices2 = [i for i, t in enumerate(times2) if start_time <= t <= end_time]
         inset_times2 = [times2[i] for i in inset_indices2]
         inset_cumulative2 = [cumulative2[i] for i in inset_indices2]
-        
+
         # 在inset中绘制
         axins.plot(inset_times1, inset_cumulative1, linewidth=2, 
                   color=color1, alpha=0.9, linestyle='-')
         axins.plot(inset_times2, inset_cumulative2, linewidth=2, 
                   color=color2, alpha=0.9, linestyle='-')
+
+        # inset中标记停滞片段
+        inset_stall1 = find_stall_indices(inset_times1, stall_threshold)
+        inset_stall2 = find_stall_indices(inset_times2, stall_threshold)
+        highlight_stalls(axins, inset_times1, inset_cumulative1, inset_stall1, add_label=False)
+        highlight_stalls(axins, inset_times2, inset_cumulative2, inset_stall2, add_label=False)
         
         # 设置inset范围
         axins.set_xlim(start_time, end_time)
@@ -247,6 +294,8 @@ Examples:
                        help="Inset zoom start time in seconds")
     parser.add_argument("--inset-end", type=float, default=None, 
                        help="Inset zoom end time in seconds")
+    parser.add_argument("--stall-threshold-ms", type=float, default=100.0,
+                        help="Minimum gap (in milliseconds) between tokens to highlight as a stall")
     
     args = parser.parse_args()
     
@@ -318,7 +367,8 @@ Examples:
             output_file=output_file,
             show_plot=not args.no_show,
             main_range=main_range,
-            inset_range=inset_range
+            inset_range=inset_range,
+            stall_threshold=max(args.stall_threshold_ms, 0.0) / 1000.0
         )
         
         print("\n✅ Paper-style comparison plot generated successfully!")

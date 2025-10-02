@@ -174,7 +174,7 @@ class RequestTimelineVisualizer:
         else:
             return '#E74C3C'  # 红色 - 异常长ITL
     
-    def create_gantt_chart(self, max_requests: int = 50, figsize: Tuple[int, int] = (15, 12)):
+    def create_gantt_chart(self, max_requests: int = 50, figsize: Tuple[int, int] = (25, 12)):
         """
         创建甘特图显示请求时间线
         
@@ -256,7 +256,7 @@ class RequestTimelineVisualizer:
         # 添加ITL颜色分级图例
         itl_legend_elements = [
             patches.Patch(color='#FF6B6B', label='Queue'),
-            patches.Patch(color='#4ECDC4', label='Prefill'),
+            patches.Patch(color='#4ECDC4', label='Encode+Prefill'),
             patches.Patch(color='#2ECC71', label=f'Normal ITL (<{self.itl_stats["threshold_1"]*1000:.0f}ms)'),
             patches.Patch(color='#F39C12', label=f'Long ITL ({self.itl_stats["threshold_1"]*1000:.0f}-{self.itl_stats["threshold_2"]*1000:.0f}ms)'),
             patches.Patch(color='#E67E22', label=f'Longer ITL ({self.itl_stats["threshold_2"]*1000:.0f}-{self.itl_stats["threshold_3"]*1000:.0f}ms)'),
@@ -380,7 +380,7 @@ class RequestTimelineVisualizer:
         # 添加ITL颜色分级图例
         itl_legend_elements = [
             patches.Patch(color='#FF6B6B', label='Queue'),
-            patches.Patch(color='#4ECDC4', label='Prefill'),
+            patches.Patch(color='#4ECDC4', label='Encode+Prefill'),
             patches.Patch(color='#2ECC71', label=f'Normal ITL (<{self.itl_stats["threshold_1"]*1000:.0f}ms)'),
             patches.Patch(color='#F39C12', label=f'Long ITL ({self.itl_stats["threshold_1"]*1000:.0f}-{self.itl_stats["threshold_2"]*1000:.0f}ms)'),
             patches.Patch(color='#E67E22', label=f'Longer ITL ({self.itl_stats["threshold_2"]*1000:.0f}-{self.itl_stats["threshold_3"]*1000:.0f}ms)'),
